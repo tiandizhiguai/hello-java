@@ -6,3 +6,5 @@
 /hello-service/.settings
 /hello-service/target
 /hello-service/.classpath
+/hello-service/src/main/java/com/python/__pycache__/paibutu.cpython-311.pyc
+/hello-service/.pydevproject
