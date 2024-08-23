@@ -9,10 +9,10 @@
 		<version>1.0.0</version>
 		<relativePath>..</relativePath>
 	</parent>
-	
+
 	<artifactId>hello-service</artifactId>
 	<packaging>jar</packaging>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -27,14 +27,4 @@
 			<artifactId>logback-classic</artifactId>
 		</dependency>
 	</dependencies>
-	<build>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<includes>
-					<include>**/*</include>
-				</includes>
-			</resource>
-		</resources>
-	</build>
 </project>
