@@ -5,12 +5,13 @@ if __name__ == "__main__":
     
     headers = {
         'content-type': 'application/json',
-        'Authorization': 'Bearer a37973afeb584d208a11fdf733f6f60f'
+        'tenant-id': '0',
+        'Authorization': 'Bearer 83749385dc5d41ad996f34b37b0a705e'
     }
     
-    url = 'http://localhost:9098/app-api/sop/chat/make'
+    url = 'http://127.0.0.1:9098/app-api/sop/chat/calc'
     params = {
-        'projectId': 1707,
+        'projectId': 4196,
     }
     r = requests.post(url, headers = headers, data=json.dumps(params))
     print(r.text)

@@ -14,17 +14,18 @@ public class CalCodeRows {
 	static long allLines = 0; // 代码行
 
 	public static void main(String[] args) throws Exception {
-		File f = new File("E:\\workspace2\\test\\dhorse"); // 目录
+		File f = new File("D:\\workspace3\\marco-all"); // 目录
 		Set<String> types = new HashSet<>();
 		types.add("java");
-		types.add("html");
-		types.add("yml");
+		//types.add("html");
+		//types.add("yml");
 		types.add("sh");
 		types.add("bat");
-		types.add("xml");
-		types.add("json");
-		types.add("md");
-		types.add("txt");
+		//types.add("xml");
+		//.add("json");
+		//types.add("md");
+		//types.add("txt");
+		types.add("py");
 		CalCodeRows.treeFile(f, types);
 		System.out.println("路径：" + f.getPath());
 		System.out.println("文件数量：" + classcount);
